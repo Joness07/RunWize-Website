@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RunWize Roadmap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ffa071d13.js" crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const backToTopButton = document.querySelector('.backToTop');
+        
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 200) {
+                    backToTopButton.classList.add('visible');
+                } else {
+                    backToTopButton.classList.remove('visible');
+                }
+            });
+        });
+        </script>
+
+</head>
+<body>
+    <div class = "container">
+        <header class ="header">
+            <nav>
+                <img src = "images/logo.png" alt = "RunWize Logo" class = "logo" style="height: 200px; margin: -50px; margin-left: 0;">
+                <ul>
+                    <li><a href="#UUF">Understanding User Feedback</a></li>
+                    <li><a href="#RA">Resource Allocation</a></li>
+                    <li><a href="#PD">Professional Development</a></li>
+                    <li><a href="#OR">Objective Roadmap</a></li>
+                </ul>
+                <button class="infoButton" onclick="window.open('https://www.brightnetwork.co.uk/internship-experience-uk/ieuk-2024-on-demand', '_blank')">Info<i class="fa-solid fa-mug-hot" style="color: #f5f5f5;"></i></button>
+            </nav>
+        </header>
+        <div class="heroDiv">
+            <video class="video-bg" autoplay muted loop>
+                <source src="./runningVideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="spacer2 layer6">
+            </div>
+            <section class="hero">
+                <h1>Join the RunWize <br>Revolution and Start <br>Empowering Every Step <br>of Your Fitness Journey</h1>
+            </section>
+            <div class="spacer layer2" id="UUF"></div>
+        </div>
+
+        <section class="section">
+            <h1>Understanding User Feedback</h1>
+            <div style="display: flex;">
+                <div>
+                    <h3>Collecting Feedback</h3>
+                    <p>User feedback can be collected through multiple methods such as reviews, in-app surveys and emailed feedback forms. Approaching the user feedback in multiple methods allows for more results and better analysis of the data, rather than waiting for user reviews to come in, set out a list of questions specific to multiple areas for a better understanding of where the focus needs to be shifted towards.</p>
+                    <h3>Analysing Feedback</h3>
+                    <p>The data received needs to be categorised into common themes such as bugs, feature requests, user experience issues etc. The data is best represented graphically to allow for easier interpretation for other colleagues working at the company. With the data collected, the company should prioritise feedback based on the frequency and impact it has on user experience. For example, if there is a high frequency of users saying their notifications aren’t coming through, this should be something that needs to be addressed quickly.</p>
+                </div>
+                <img src="/images/feedback.png" alt="Feedback Infographic" style="width: 750px; height: auto; object-fit: contain;">
+            </div>
+        </section>
+        <div class="spacer layer3" id="RA"></div>
+        <section class="sectionAlt">
+            <div style="display: flex";>
+                <img src="/images/resources.png" alt="Feedback Infographic" style="width: 750px; height: auto; object-fit: contain;">
+                <div>
+                    <h1>Resource Allocation</h1>
+                    <h3>Software Engineering</h3>
+                    <p>The software engineers are tasked with two main categories which are maintenance and new features. Resources need to be appropriately designated to each area depending on the current situation regarding the app. For example, if the app is currently receiving a lot of negative feedback because of bugs, more work should be done on fixing it rather than developing new features. While the app has little to no bugs, then the resources should be shifted more towards new feature design and implementation.</p>
+                    <h3>UX Design</h3>
+                    <p>Similarly, with software development, the people who are designing the user interface and improving the UX should reflect on the current situation regarding user feedback.</p>
+                    <h3>Product Management</h3>
+                    <p>As a team, it’s important to review the progress made and adjust priorities therefore weekly meetings should occur to check in on the team and where they are at with the assigned work. It is also important to adjust emerging issues so more meetings may be scheduled if necessary.</p>
+                </div>
+            </div>
+        </section> 
+        <div class="spacer layer4" id="PD"></div>
+        <section class="section">
+            <div style="display: flex;">
+                <div>
+                    <h1>Professional Development</h1>
+                    <h3>Agile Development</h3>
+                    <p>Development should be broken down into short, repeatable phases that are a set length. Common phases include planning, designing, developing, testing, deploying, reviewing and launching. A suitable time frame to complete all these phases is usually 4 weeks and can be great for working on new features especially when the team consists of a small group of members because it means the focus is always on what’s needed.</p>
+                    <h3>Kanban Board</h3>
+                    <p>Outside of weekly meetings, it's still important to see what tasks are completed and what is left to be done. A Kanban board allows users to update tasks into categories and assign them to certain members. Each task can also include subtasks and overall provide a visual representation of the development objectives.</p>
+                    <h3>Metrics</h3>
+                    <p>To measure if the work done is effective, metrics and indicators should be measured and reviewed to see if the changes and new features impact the user engagement of the application. The best metrics to employ are MAU (monthly active users), churn rate and user ratings. </p>
+                </div>
+                <img src="/images/kanban.png" alt="Feedback Infographic" style="width: 750px; height: auto; object-fit: contain;">
+            </div>
+        </section>
+        <div class="spacer layer5" id="OR"></div>
+        <section class="sectionAlt2">
+            <h1>Objective Roadmap</h1>
+            <img src = "./images/roadmap.png" alt = "Roadmap Infographic" class ="center" style="padding-bottom: 40px;">
+            <div style="text-align: left;">
+                <ul class ="horizontal-list">
+                    <li>
+                        <h3>1. User Feedback</h3>
+                        <p>In the first two months, we will gather user feedback through surveys, reviews, interviews, and focus groups. This will help identify common themes, prioritise issues, and understand user needs, guiding future improvements and feature developments.</p>
+                    </li>
+                    <li>
+                        <h3>2. Quick Wins</h3>
+                        <p>We'll tackle high-priority bugs and usability issues in the first two months to improve user experience, reduce churn, and stabilise Monthly Active Users. This includes refining features and improving metrics interpretation guidance.</p>
+                    </li>
+                    <li>
+                        <h3>3. Competitors</h3>
+                        <p>In the second and third months, RunWize will conduct a high-level competitor analysis to understand its unique selling points and identify areas for improvement, thereby enhancing its feature development and marketing strategies.</p>
+                    </li>
+                </ul>
+                <ul class = "horizontal-list2">
+                    <li>
+                        <h3>4. New Features</h3>
+                        <p>From the third to fifth month, we'll focus on developing new features to enhance the app's appeal, including community features, advanced training programs, customisable workout plans, enhanced social sharing, and privacy settings, aiming to attract and retain users.</p>
+                    </li>
+                    <li>
+                        <h3>5. Outreach</h3>
+                        <p>The final phase, from the fourth to the sixth month, will focus on strategic marketing, launching targeted campaigns, collaborating with fitness influencers, and developing loyalty programs to enhance app visibility, user engagement, and subscription growth, while also analysing marketing success.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="backToTop">
+            <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+        <div class="spacer3 layer1">
+            <div class = "footer">
+                <ul class = "flexList">
+                    <li>
+                        <h3>Socials</h3>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/samuel-jones-95a37a213/" target="_blank">LinkedIn</a><i class="fa-brands fa-linkedin" style="color: #f5f5f5;"></i></li>
+                            <li><a href="https://github.com/Joness07" target="_blank">GitHub</a><i class="fa-brands fa-github" style="color: #f5f5f5;"></i></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Description</h3>
+                        <p>This website serves as a comprehensive showcase of the innovative work completed during the IEUK online internship experience. It highlights the individual achievements and efforts that have been pushed to accompany a real-world challenge assigned at the start of the event. I, the developer, decided that rather than presenting my work in the form of a PowerPoint or document, it would be more hands-on and impactful to use my existing web development skills to reflect this journey of learning and professional growth.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+ 
